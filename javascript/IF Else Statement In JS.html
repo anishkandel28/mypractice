@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <title>If Else Statement In JS</title>
+</head>
+
+<body>
+    <h1>Insert Your password</h1>
+    <input type="text" id="input">
+    <button id="submit">Submit</button>
+
+
+
+    <script type="text/javascript">
+        document.getElementById("submit").onclick = function() {
+
+            var input = "anish";
+            var userEntered = document.getElementById("input").value;
+            if (userEntered == input) {
+                alert("You are Welcome")
+            } else {
+                alert("password is invalid ,Please Try Again")
+            }
+        }
+    </script>
+</body>

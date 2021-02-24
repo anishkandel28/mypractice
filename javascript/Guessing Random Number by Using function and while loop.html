@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Guessing random Number by Using function and while loop</title>
+</head>
+
+<body>
+    <select id="userNumber">
+        <option>0</option>
+        <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+    </select>
+    <button id="guessbtn">Guess</button>
+    <script type="text/javascript">
+        function doAGuess(userSelect) {
+            var guess = Math.random()
+            guess = guess * 6;
+            guess = Math.floor(guess)
+
+            if (guess == userSelect) {
+                return (true);
+
+            } else {
+                return (false);
+            }
+        }
+        document.getElementById("guessbtn").onclick = function() {
+            var myNumber = document.getElementById("userNumber").value;
+            var gotIt = false;
+            var numberOfGuess = 1;
+
+            while (gotIt == false) {
+                if (doAGuess(myNumber) == true) {
+                    gotIt = true;
+                    alert("Got it. It was " + myNumber + "It takes me" + numberOfGuess + "guesses")
+                } else {
+                    numberOfGuess++;
+                }
+            }
+        }
+    </script>
+</body>

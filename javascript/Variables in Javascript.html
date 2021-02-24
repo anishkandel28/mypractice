@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Variables in Javascript</title>
+</head>
+
+<body>
+    <input type="text" id="input">
+    <button id="Change">Change the Text</button>
+    <p id="text"></p>
+
+    <script type="text/javascript">
+        document.getElementById("Change").onclick = function() {
+            var textEntered = "";
+            textEntered = document.getElementById("input").value;
+            document.getElementById("text").innerHTML = textEntered;
+        }
+    </script>
+</body>

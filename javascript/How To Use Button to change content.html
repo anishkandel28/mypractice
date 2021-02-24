@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <title>How to use button to change content</title>
+</head>
+
+<body>
+    <p id="first-paragraph">Hello and Welcome to Anish Tech</p>
+    <button id="append">ClickOnMe</button>
+    <p id="color">It is black change it into red</p>
+    <button id="red">ChangeRed</button>
+
+
+    <script type="text/javascript">
+        document.getElementById("append").onclick = function() {
+            document.getElementById("first-paragraph").innerHTML = "Today is Begaining" + "&nbsp;&nbsp" + document.getElementById("first-paragraph").innerHTML + "&nbsp;&nbsp" + "<h1>Thanks for Watching</h1>";
+        }
+
+        document.getElementById("red").onclick = function() {
+            document.getElementById("color").style.color = "red";
+        }
+    </script>
+</body>

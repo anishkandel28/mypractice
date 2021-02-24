@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<head>
+    <title>WEB page design revision</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #topbar {
+            margin: 0 auto;
+            width: 1200px;
+            padding: 0px;
+            height: 40px;
+        }
+        
+        .topbar-selection {
+            border-left: 1px grey solid;
+            float: left;
+            height: 100%;
+        }
+        
+        .mainheads {
+            position: relative;
+            top: 7px;
+            left: 16px;
+            padding-right: 30px;
+            font-weight: bold;
+            font-size: 85%;
+        }
+        
+        #bbclogo {
+            height: 40px;
+            padding-bottom: 15px;
+            float: left;
+        }
+        
+        #signtext {
+            position: relative;
+            bottom: 10px;
+            padding-right: 40px;
+            font-weight: bold;
+            font-size: 90%;
+        }
+        
+        #Signinicon {
+            height: 20px;
+            width: 20px;
+            float: left;
+        }
+        
+        #moretext {
+            position: relative;
+            left: 10px;
+            top: 10px;
+            float: left;
+            font-weight: bold;
+            font-size: 85%;
+            padding-right: 30px;
+        }
+        
+        #arrow {
+            margin-top: 12px;
+            margin-left: 20px;
+        }
+        
+        #search {
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        #searchicon {
+            margin-top: 10px;
+            width: 20px;
+            height: 23px;
+            position: relative;
+        }
+        
+        #Newsbar {
+            background-color: brown;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topbar">
+        <image id="bbclogo" src="bbc.png"></image>
+
+        <div class="topbar-selection">
+            <image id="Siginicon" src="Signinicon.png"><span id="signtext">Sign In</span> </div>
+        <div class="topbar-selection"><span class="mainheads">Home</span></div>
+        <div class="topbar-selection"><span class="mainheads">News</span></div>
+        <div class="topbar-selection"><span class="mainheads">Career</span></div>
+        <div class="topbar-selection"><span class="mainheads">Sport</span></div>
+        <div class="topbar-selection"><span class="mainheads">Weather</span></div>
+        <div class="topbar-selection"><span class="mainheads">Shop</span></div>
+        <div class="topbar-selection"><span class="mainheads">Travel</span></div>
+        <div class="topbar-selection"><span class="mainheads">Capital</span></div>
+        <div class="topbar-selection">
+            <image id="arrow" src="morearrow.png"></image><span id="moretext">More</span></div>
+        <div class="topbar-selection">
+            <image id="searchicon" src="Searchicon.png"><input id="search" type="text" value="search">
+
+        </div>
+    </div>
+    <br>
+
+    <div id="Newsbar">
+        <span id="news">News</span>
+    </div>
+</body>

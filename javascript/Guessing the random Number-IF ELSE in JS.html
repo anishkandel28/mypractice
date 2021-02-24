@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Guess the Random Number</title>
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Guess the Number from 0 To 5</h1>
+    <input type="text" id="guessnumber">
+    <button id="guess">Guess</button>
+
+
+    <script type="text/javascript">
+        document.getElementById("guess").onclick = function() {
+            var randomNumber = Math.random();
+            randomNumber = (randomNumber * 6);
+            randomNumber = Math.floor(randomNumber);
+
+            if (document.getElementById("guessnumber").value == randomNumber) {
+                alert(" Congratulation! You are absoulatey correct")
+            } else {
+                alert("Sorry! you are Wrong.The number was" + randomNumber)
+            }
+        }
+    </script>
+</body>

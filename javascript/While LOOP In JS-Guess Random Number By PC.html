@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>While loop in JS</title>
+</head>
+
+<body>
+    <p>How many Fingers are you holding up?</p>
+    <select id="usernumber">
+        <option>0</option>
+    <option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option> 
+<option>5</option>
+</select>
+    <button id="guessbtn">Guess</button>
+    <script type="text/javascript">
+        document.getElementById("guessbtn").onclick = function() {
+            var myNumber = document.getElementById("usernumber").value;
+            var gotIt = false;
+            var numberOfGuess = 1;
+            0
+
+            while (gotIt == false) {
+                var guess = Math.random();
+                guess = guess * 6;
+                guess = Math.floor(guess);
+
+                if (guess == myNumber) {
+                    gotIt = true;
+                    alert("you got it" + guess + "it took me" + numberOfGuess + "guesses")
+                } else {
+                    numberOfGuess++;
+                }
+            }
+        }
+    </script>
+
+</body>

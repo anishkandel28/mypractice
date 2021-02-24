@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Disapper Object In Javascript</title>
+    <style>
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        #red-circle {
+            background-color: red;
+        }
+        
+        #blue-circle {
+            background-color: blue;
+        }
+        
+        #brown-circle {
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle" id="red-circle"></div>
+    <div class="circle" id="blue-circle"></div>
+    <div class="circle" id="brown-circle">This is Circle</div>
+
+
+    <script type="text/javascript">
+        document.getElementById("red-circle").onclick = function() {
+            document.getElementById("red-circle").style.backgroundColor = "pink";
+            document.getElementById("red-circle").innerHTML = "OKay";
+            document.getElementById("red-circle").style.borderRadius = "0%";
+        }
+
+        document.getElementById("blue-circle").onclick = function() {
+            document.getElementById("blue-circle").style.display = "none";
+        }
+
+        document.getElementById("brown-circle").onclick = function() {
+            document.getElementById("brown-circle").style.borderRadius = "0%";
+        }
+    </script>
+</body>

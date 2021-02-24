@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<head>
+    <title>How to access element by ID</title>
+
+    <body>
+        <button id="mybutton">ClickOnME</button>
+        <p id="hello">Hello and Welcome</p>
+        <script type="text/javascript">
+            document.getElementById("hello").innerHTML = "Very Much Thanks";
+            document.getElementById("mybutton").onclick = function() {
+                document.getElementById("hello").innerHTML = "Hello and Welcome";
+            }
+        </script>
+
+    </body>

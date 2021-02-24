@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: green;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    height: 600px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+#calculator {
+    background-color: lightgrey;
+    height: 250px;
+    width: 500px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#billAmt {
+    margin: 10px;
+    height: 25px;
+}
+
+#service {
+    margin: 10px;
+    height: 50px;
+}
+
+#people {
+    margin: 10px;
+    height: 25px;
+}
+
+#calculate {
+    background-color: brown;
+    height: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#clear {
+    background-color: brown;
+    height: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#totaltip {
+    background-color: crimson;
+    text-align: center;
+}

@@ -1,0 +1,377 @@
+<!Doctype html>
+
+<head>
+    <title>BBC Web Page</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #topbar {
+            width: 1280px;
+            margin: 0 auto;
+            height: 40px;
+        }
+        
+        .topbar-selection {
+            float: left;
+            border-left: 1px grey solid;
+            height: 100%;
+        }
+        
+        #bbclogo {
+            position: relative;
+            float: left;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            height: 35px;
+        }
+        
+        #smallbar {
+            width: 2000px;
+            margin: 0;
+        }
+        
+        .thirdbar {
+            float: left;
+            border-left: 1px grey solid;
+            padding: 14.5px;
+            height: 4px;
+            background-color: green;
+        }
+        
+        .heads {
+            position: relative;
+            font-weight: bold;
+            font-size: 85%;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .mainheads {
+            position: relative;
+            top: 16px;
+            left: 16px;
+            padding-right: 40px;
+            font-weight: bold;
+            font-size: 85%;
+        }
+        
+        #search {
+            padding-top: 5px;
+            margin: 5px;
+            float: left;
+            position: relative;
+            height: 20px;
+        }
+        
+        #News {
+            background-color: blueviolet;
+            padding: 20px;
+            color: white;
+        }
+        
+        .w {
+            font-size: 50px;
+            text-align: center;
+            padding-left: 85px;
+        }
+        
+        #manlogo {
+            margin-top: 10px;
+            height: 27px;
+            float: left;
+            width: 25px;
+        }
+        
+        #signtext {
+            position: relative;
+            top: 15px;
+            padding-right: 30px;
+            padding-left: 5px;
+            font-weight: bold;
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        
+        #arrow {
+            padding-top: 18px;
+        }
+        
+        #more {
+            float: left;
+            padding-right: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 18px;
+        }
+        
+        #icon {
+            padding-right: 100px;
+            padding-top: 8px;
+            position: relative;
+        }
+        
+        #fourthbar {
+            padding-left: 100px;
+            float: left;
+            padding-top: 30px;
+        }
+        
+        #maintopic {
+            text-decoration: none;
+            font-size: 30px;
+            border-right: 1px grey solid;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #date {
+            position: relative;
+            border-right: 1px grey solid;
+            float: left;
+            padding-right: 15px;
+        }
+        
+        #tech {
+            padding-left: 10px;
+        }
+        
+        #clockicon {
+            position: relative;
+            padding-bottom: 60px;
+            margin: 0px;
+            float: left;
+            height: 20px;
+            width: 20px;
+        }
+        
+        #container {
+            padding-bottom: 50px;
+        }
+        
+        #subcontainer {
+            padding-bottom: 40px;
+            float: left;
+        }
+        
+        #mobile {
+            padding-right: 70px;
+            height: 250px;
+            border-right: 1px grey solid;
+        }
+        
+        #notes {
+            font-size: 17px;
+            padding-right: 30px;
+        }
+        
+        #button {
+            position: relative;
+            height: 20px;
+            width: 15px;
+            margin: 0px;
+            float: left;
+            padding-right: 10px;
+        }
+        
+        #text {
+            position: relative;
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+        
+        #fifthbar {
+            float: left;
+            padding-top: 30px;
+        }
+        
+        #secondsubcontainer {
+            float: left;
+        }
+        
+        #image {
+            float: left;
+            padding-left: 20px;
+        }
+        
+        #texts {
+            float: left;
+        }
+        
+        #nclock {
+            float: left;
+        }
+        
+        #bold {
+            font-weight: bold;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="topbar">
+
+        <div class="topbar-selection"><img id="bbclogo" src="bbc.png" , alt=BBC Logo></div>
+        <div class="topbar-selection">
+            <image id="manlogo" src="signinicon.png" ,alt=dot/><span id="signtext">Sign In</span></div>
+        <div class="topbar-selection"><span class="mainheads">Home</span></div>
+        <div class="topbar-selection"><span class="mainheads">News</span></div>
+        <div class="topbar-selection"><span class="mainheads">Sports</span></div>
+        <div class="topbar-selection"><span class="mainheads">Weather</span></div>
+        <div class="topbar-selection"><span class="mainheads">Shop</span></div>
+        <div class="topbar-selection"><span class="mainheads">Buisness</span></div>
+        <div class="topbar-selection"><span class="mainheads">Travel</span></div>
+        <div class="topbar-selection"><span class="mainheads">Capital</span></div>
+        <div class="topbar-selection">
+            <image id="arrow" src="morearrow.png"><span id="more">More</span>
+        </div>
+        <div class="topbar-selection"><img id="icon" src="Searchicon.png"><input id="search" , type="text" , value="search">
+        </div>
+    </div>
+
+    <div id="News">
+        <span class="w">NEWS</span>
+
+    </div>
+
+    <div id="smallbar">
+
+        <div class="thirdbar"><span class="heads">Home</span></div>
+        <div class="thirdbar"><span class="heads">Video</span></div>
+        <div class="thirdbar"><span class="heads">World</span></div>
+        <div class="thirdbar"><span class="heads">Asia</span></div>
+        <div class="thirdbar"><span class="heads">UK</span></div>
+        <div class="thirdbar"><span class="heads">Buisness</span></div>
+        <div class="thirdbar"><span class="heads">Tech</span></div>
+        <div class="thirdbar"><span class="heads">Science</span></div>
+        <div class="thirdbar"><span class="heads">Stories</span></div>
+        <div class="thirdbar"><span class="heads">Entertainments&Arts</span></div>
+        <div class="thirdbar"><span class="heads">Health</span></div>
+        <div class="thirdbar"><span class="heads">Career</span></div>
+        <div class="thirdbar"><span class="heads">World Televisoion</span></div>
+        <div class="thirdbar"><span class="heads">Newspaper</span></div>
+        <div class="thirdbar"><span class="heads">Reality Check</span></div>
+        <div class="thirdbar"><span class="heads">Managemnets</span></div>
+        <div class="thirdbar"><span class="heads">Politics</span></div>
+        <div class="thirdbar"><span class="heads">Trades</span></div>
+        <div class="thirdbar"><span class="heads">More</span></div>
+    </div>
+
+    <div id="fourthbar">
+        <h2><a href="#">Technology</a></h2>
+        <div id="maintopic"><a href="#">Facebook And Instagram Suffer Most<br> Sevre Outage Ever</a></div>
+
+        <div id="container">
+            <div id="subcontainer">
+                <div id="notes">
+                    <p>The social network confirms<br> problems with it "family of apps",<br>but the cause is currently unkown</p>
+                    <image id="clockicon" src="clockicon.png"></image><span id="date"> 11 March 2020<span id="tech"><a href="#">Technology</a></span><br><br><br>
+
+                    <image id="button" src="playbutton.png">
+                        <span id="text">Facebook and Instagram suffer<br> most sevre outage ever </span>
+                </div>
+            </div>
+
+
+            <div id="secondsubcontainer">
+                <img id="mobile" src="mob.jpg">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="fifthbar">
+        <h2>Watch/Listen</h2>
+
+
+        <div id="thirdcontainer">
+            <div id="image">
+                <image id="icon" src="videoicon.png">
+                </image>
+            </div>
+
+            <div id="texts">
+                <span id="bold">Gums shiled help spot <br> concussion sign</span><br><br>
+
+                <image id="nclock" src="clockicon.png"></image><span id="march">March 11 2020</span><br><br><span id="tec"><a href="#">Technology</a></span>
+            </div>
+
+
+            <div id="thirdcontainer">
+                <div id="image">
+                    <image id="icon" src="videoicon.png">
+                    </image>
+                </div>
+
+                <div id="texts">
+                    <span id="bold">Gums shiled help spot <br> concussion sign</span><br><br>
+
+                    <image id="nclock" src="clockicon.png"></image><span id="march">March 11 2020</span><br><br><span id="tec"><a href="#">Technology</a></span>
+                </div>
+
+                <div id="thirdcontainer">
+                    <div id="image">
+                        <image id="icon" src="videoicon.png">
+                        </image>
+                    </div>
+
+                    <div id="texts">
+                        <span id="bold">Gums shiled help spot <br> concussion sign</span><br><br>
+
+                        <image id="nclock" src="clockicon.png"></image><span id="march">March 11 2020</span><br><br><span id="tec"><a href="#">Technology</a></span>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+</body>
